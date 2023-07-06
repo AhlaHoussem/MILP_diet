@@ -1,0 +1,69 @@
+"C:\Users\Be grateful\Desktop\venv\Scripts\python.exe" "C:/Users/Be grateful/Desktop/MILP.py"
+
+
+Status: Not Solved
+Welcome to the CBC MILP Solver 
+Version: 2.10.3 
+Build Date: Dec 15 2019 
+
+command line - C:\Users\Be grateful\Desktop\venv\lib\site-packages\pulp\solverdir\cbc\win\64\cbc.exe C:\Users\BEGRAT~1\AppData\Local\Temp\5c32b97b155346a896852a197669f835-pulp.mps timeMode elapsed branch printingOptions all solution C:\Users\BEGRAT~1\AppData\Local\Temp\5c32b97b155346a896852a197669f835-pulp.sol (default strategy 1)
+At line 2 NAME          MODEL
+At line 3 ROWS
+At line 9 COLUMNS
+At line 49 RHS
+At line 54 BOUNDS
+At line 61 ENDATA
+Problem MODEL has 4 rows, 6 columns and 21 elements
+Coin0008I MODEL read with 0 errors
+Option for timeMode changed from cpu to elapsed
+Continuous objective value is 1706.57 - 0.00 seconds
+Cgl0004I processed model has 4 rows, 6 columns (6 integer (0 of which binary)) and 21 elements
+Cutoff increment increased from 1e-05 to 0.9999
+Cbc0012I Integer solution of 1814 found by DiveCoefficient after 0 iterations and 0 nodes (0.00 seconds)
+Cbc0038I Full problem 4 rows 6 columns, reduced to 4 rows 3 columns
+Cbc0031I 5 added rows had average density of 4.6
+Cbc0013I At root node, 5 cuts changed objective from 1706.5657 to 1743.3589 in 22 passes
+Cbc0014I Cut generator 0 (Probing) - 0 row cuts average 0.0 elements, 1 column cuts (1 active)  in 0.002 seconds - new frequency is 1
+Cbc0014I Cut generator 1 (Gomory) - 55 row cuts average 5.0 elements, 0 column cuts (0 active)  in 0.004 seconds - new frequency is 1
+Cbc0014I Cut generator 2 (Knapsack) - 0 row cuts average 0.0 elements, 0 column cuts (0 active)  in 0.000 seconds - new frequency is -100
+Cbc0014I Cut generator 3 (Clique) - 0 row cuts average 0.0 elements, 0 column cuts (0 active)  in 0.000 seconds - new frequency is -100
+Cbc0014I Cut generator 4 (MixedIntegerRounding2) - 3 row cuts average 3.0 elements, 0 column cuts (0 active)  in 0.001 seconds - new frequency is -100
+Cbc0014I Cut generator 5 (FlowCover) - 0 row cuts average 0.0 elements, 0 column cuts (0 active)  in 0.000 seconds - new frequency is -100
+Cbc0014I Cut generator 6 (TwoMirCuts) - 16 row cuts average 4.9 elements, 0 column cuts (0 active)  in 0.002 seconds - new frequency is 1
+Cbc0010I After 0 nodes, 1 on tree, 1814 best solution, best possible 1743.3589 (0.01 seconds)
+Cbc0012I Integer solution of 1794 found by DiveCoefficient after 48 iterations and 1 nodes (0.02 seconds)
+Cbc0012I Integer solution of 1768 found by rounding after 51 iterations and 2 nodes (0.02 seconds)
+Cbc0016I Integer solution of 1746 found by strong branching after 119 iterations and 5 nodes (0.02 seconds)
+Cbc0001I Search completed - best objective 1746, took 122 iterations and 6 nodes (0.02 seconds)
+Cbc0032I Strong branching done 24 times (38 iterations), fathomed 1 nodes and fixed 1 variables
+Cbc0035I Maximum depth 2, 1 variables fixed on reduced cost
+Cuts at root node changed objective from 1706.57 to 1743.36
+Probing was tried 46 times and created 11 cuts of which 0 were active after adding rounds of cuts (0.002 seconds)
+Gomory was tried 44 times and created 97 cuts of which 0 were active after adding rounds of cuts (0.006 seconds)
+Knapsack was tried 22 times and created 0 cuts of which 0 were active after adding rounds of cuts (0.000 seconds)
+Clique was tried 22 times and created 0 cuts of which 0 were active after adding rounds of cuts (0.000 seconds)
+MixedIntegerRounding2 was tried 22 times and created 3 cuts of which 0 were active after adding rounds of cuts (0.001 seconds)
+FlowCover was tried 22 times and created 0 cuts of which 0 were active after adding rounds of cuts (0.000 seconds)
+TwoMirCuts was tried 44 times and created 32 cuts of which 0 were active after adding rounds of cuts (0.003 seconds)
+ZeroHalf was tried 1 times and created 0 cuts of which 0 were active after adding rounds of cuts (0.000 seconds)
+
+Result - Optimal solution found
+
+Objective value:                1746.00000000
+Enumerated nodes:               6
+Total iterations:               122
+Time (CPU seconds):             0.02
+Time (Wallclock seconds):       0.02
+
+Option for printingOptions changed from normal to all
+Total time (CPU seconds):       0.02   (Wallclock seconds):       0.03
+
+Status: Optimal
+Optimal value of Broccoli: 10.0
+Optimal value of Meat: 3.0
+Optimal value of Blueberry: 0.0
+Optimal value of Chicken: 0.0
+Optimal value of Beans: 2.0
+Optimal value of Fish: 1.0
+
+Process finished with exit code 0
